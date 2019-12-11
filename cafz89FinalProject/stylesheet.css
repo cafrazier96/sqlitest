@@ -1,0 +1,113 @@
+/*
+    Name: Camille Frazier
+    Pawprint: cafz89
+    Date: 12/8/2017
+*/
+
+/* CSS Sailor Moon Stylesheet */
+
+body{
+    background-image: url("images/background1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1{
+    color: white;
+    font-family: "Leckerli One", sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: inline;
+    float: left;   
+}
+
+li a{
+    display: block;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    padding: 16px;
+    position: relative;
+    text-decoration: none;
+    background-color: hotpink;
+}
+
+li a:hover {
+    background-color: deeppink;
+}
+
+#tabdisplay{
+    position: absolute;
+    margin: 0 auto;
+    
+}
+
+.image1{
+    width: 500px;
+    height: 560px;
+    position: relative;
+    z-index: 1;
+}
+
+.image2{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    z-index: 1;
+}
+
+.image3{
+    width: 500px;
+    height: 300px;
+    position: relative;
+    z-index: 1;
+}
+
+.headerdesign{
+    font-family: "Leckerli One", sans-serif;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    
+}
+
+.textdesign{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    
+}
+
+.wrapper {
+    display: block;
+    background: rgba(51,51,255, 0.5);
+    width: 900px; 
+    height: 600px;
+    border: 1px solid yellow;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    overflow: auto;
+    position: relative;
+    margin: 10px;
+    top: 30px;
+    left: 200px;
+    z-index: 1;
+}
+
+.formtext{
+    font-family: sans-serif;
+    font-size: 16px;
+}
